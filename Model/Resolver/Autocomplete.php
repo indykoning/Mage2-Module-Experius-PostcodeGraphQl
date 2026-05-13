@@ -1,4 +1,4 @@
-<?php
+ull<?php
 
 /**
  * A Magento 2 module named Experius/Postcode
@@ -53,8 +53,8 @@ class Autocomplete implements ResolverInterface
         Field $field,
               $context,
         ResolveInfo $info,
-        array $value = null,
-        array $args = null
+        ?array $value = null,
+        ?array $args = null
     ) {
         if (!isset($args['countryId']) || !$args['countryId']) {
             throw new GraphQlInputException(__('"countryId" should be specified'));
