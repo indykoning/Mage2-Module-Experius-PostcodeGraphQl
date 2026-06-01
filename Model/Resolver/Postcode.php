@@ -12,9 +12,9 @@
 
 namespace Experius\PostcodeGraphQl\Model\Resolver;
 
-use Flekto\Postcode\Helper\StoreConfigHelper;
-use Flekto\Postcode\Service\Exception\ClientException;
-use Flekto\Postcode\Service\PostcodeApiClient;
+use PostcodeEu\AddressValidation\Helper\StoreConfigHelper;
+use PostcodeEu\AddressValidation\Service\Exception\ClientException;
+use PostcodeEu\AddressValidation\Service\PostcodeApiClient;
 use Magento\Framework\GraphQl\Config\Element\Field;
 use Magento\Framework\GraphQl\Exception\GraphQlInputException;
 use Magento\Framework\GraphQl\Query\ResolverInterface;
